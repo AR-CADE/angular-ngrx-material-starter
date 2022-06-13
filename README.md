@@ -129,6 +129,10 @@ Articles with content that explains various approaches used to build this starte
 - Angular Material
 - Bootstrap 5 (only reset, utils and grids)
 
+## Todo
+
+Fix all dependencies to not be force to use `--force` with npm
+
 ## Troubleshooting
 
 - **Blocking at emitting LicenseWebpackPlugin when npm start** - try using [cnpm](https://github.com/cnpm/cnpm) instead of npm
