@@ -49,6 +49,8 @@ import { AnimationsService } from './animations/animations.service';
 import { AppErrorHandler } from './error-handler/app-error-handler.service';
 import { CustomSerializer } from './router/custom-serializer';
 import { LocalStorageService } from './local-storage/local-storage.service';
+import { MemoryStorageService } from './memory-storage/memory-storage.service';
+import { SessionStorageService } from './session-storage/session-storage.service';
 import { HttpErrorInterceptor } from './http-interceptors/http-error.interceptor';
 import { GoogleAnalyticsEffects } from './google-analytics/google-analytics.effects';
 import { NotificationService } from './notifications/notification.service';
@@ -83,6 +85,8 @@ export {
   routeAnimations,
   AppState,
   LocalStorageService,
+  MemoryStorageService,
+  SessionStorageService,
   selectIsAuthenticated,
   ROUTE_ANIMATIONS_ELEMENTS,
   AnimationsService,
