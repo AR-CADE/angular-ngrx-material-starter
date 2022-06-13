@@ -52,8 +52,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1536kb"
+                  "maximumWarning": "1280kb",
+                  "maximumError": "2048kb"
                 },
                 {
                   "type": "bundle",
@@ -65,7 +65,7 @@
                 {
                   "type": "bundle",
                   "name": "styles",
-                  "baseline": "280kb",
+                  "baseline": "350kb",
                   "maximumWarning": "50kb",
                   "maximumError": "100kb"
                 },
@@ -78,8 +78,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "3kb",
+                  "maximumError": "5kb"
                 }
               ]
             }
@@ -128,17 +128,6 @@
                 }
               ]
             }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/angular-ngrx-material-starter/tsconfig.app.json",
-              "projects/angular-ngrx-material-starter/tsconfig.spec.json",
-              "projects/angular-ngrx-material-starter/e2e/tsconfig.json"
-            ],
-            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
